@@ -1,0 +1,10 @@
+{
+  "name": "master merge alert",
+  "description": "Alert when merge master branch on Github",
+  "version": "0.0.1",
+  "content_scripts": [{
+      "js": ["js/merge_master_alert.js"],
+      "matches": ["https://github.com/*/*"]
+  }],
+  "manifest_version": 2
+}
